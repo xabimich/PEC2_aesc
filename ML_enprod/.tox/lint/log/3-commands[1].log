@@ -1,0 +1,25 @@
+name: lint
+run_id: commands[1]
+env HOME: /Users/xabimich
+env TMPDIR: /var/folders/19/9lyrctkn1_q554vv396cd5x00000gn/T/
+env LANG: en_US.UTF-8
+env TERM: xterm-256color
+env PATH: /Users/xabimich/Library/CloudStorage/OneDrive-VallHebronInstitutRecerca-G60594009/Máster Data Science/Analítica escalable/PEC2/ML_enprod/.tox/test_package/bin:/Users/xabimich/.detaspace/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/xabimich/opt/anaconda3/bin:/Users/xabimich/opt/anaconda3/condabin
+env PYTHONHASHSEED: 959981970
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env TOX_ENV_NAME: lint
+env TOX_WORK_DIR: /Users/xabimich/Library/CloudStorage/OneDrive-VallHebronInstitutRecerca-G60594009/Máster Data Science/Analítica escalable/PEC2/ML_enprod/.tox
+env TOX_ENV_DIR: /Users/xabimich/Library/CloudStorage/OneDrive-VallHebronInstitutRecerca-G60594009/Máster Data Science/Analítica escalable/PEC2/ML_enprod/.tox/test_package
+env VIRTUAL_ENV: /Users/xabimich/Library/CloudStorage/OneDrive-VallHebronInstitutRecerca-G60594009/Máster Data Science/Analítica escalable/PEC2/ML_enprod/.tox/test_package
+env COLUMNS: 149
+env LINES: 50
+metadata pid: 8080
+cwd: /Users/xabimich/Library/CloudStorage/OneDrive-VallHebronInstitutRecerca-G60594009/Máster Data Science/Analítica escalable/PEC2/ML_enprod
+allow: /Users/xabimich/Library/CloudStorage/OneDrive-VallHebronInstitutRecerca-G60594009/Máster Data Science/Analítica escalable/PEC2/ML_enprod/.tox/test_package/bin/*
+cmd: black my_model tests
+exit_code: 0
+
+standard error:
+[1mAll done! ✨ 🍰 ✨[0m
+[34m13 files [0mleft unchanged.

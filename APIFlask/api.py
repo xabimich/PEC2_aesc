@@ -9,6 +9,7 @@ app = Flask(__name__)
 def wine_classifier():
     data = request.get_json()
     input_data = np.array(data['data'])
+    print(input_data)
     prediction = make_prediction(input_data=input_data)
     if prediction == 1:
         prediction = "good"
